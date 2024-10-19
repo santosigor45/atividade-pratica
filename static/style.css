@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    background: url('images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+}
+
+/* Container principal */
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+}
+
+/* Container de cada projeto */
+.project-container {
+    background-color: rgba(73, 73, 73, 0.6);
+    padding: 10px;
+    margin: 0 0 20px 0;
+    border-radius: 10px;
+}
+
+/* Menu de navegação */
+nav ul {
+    font-size: 14pt;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0 0 20px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+    text-align: center;
+    border-bottom: 2px solid #ffffff;
+}
+
+/* Itens da nav bar */
+nav ul li {
+    display: inline;
+    padding: 10px 20px;
+}
+
+/* Links da nav bar */
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555555;
+    border-radius: 5px;
+}
+
+/* Imagem de perfil */
+.profile-img {
+    border-radius: 50%;
+    max-width: 150px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+/* Imagem de cada projeto */
+.project-img {
+    max-width: 150px;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 1.4em;
+    margin: 20px 30px;
+}
+
+/* Formulário de contato */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: left;
+}
+
+/* Inputs e textarea */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #ffffff;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Botão enviar */
+button {
+    padding: 10px 0px;
+    background-color: #555555;
+    width: 105%;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer; /* Mostra a mãozinha ao passar o mouse */
+}
+
+button:hover {
+    background-color: #777777;
+}
+
+/* Links de cada projeto */
+a {
+    color: #00ccff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+}
